@@ -74,6 +74,8 @@ export const CartItem = styled.div`
 `;
 
 export const RemoveItem = styled.div`
+    display: grid;
+    align-items: center;
     position: absolute;
     top: -5px;
     right: -5px;

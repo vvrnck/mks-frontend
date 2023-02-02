@@ -64,7 +64,6 @@ export const CounterAdd = styled.div`
 export const Separator = styled.div`
     display: flex;
     height: 70%;
-    width: 0.2px;
-    //border: 0.2px solid #BFBFBF;
+    width: 0.5px;
     background: #BFBFBF;
 `;
