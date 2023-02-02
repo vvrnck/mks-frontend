@@ -8,7 +8,7 @@ describe('Footer', () => {
     beforeEach(async () => {
         await act(() => {
             render(<Footer />);
-		});
+        });
     });
 
     it('should render footer', async () => {

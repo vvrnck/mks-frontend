@@ -66,7 +66,7 @@ const Cart : React.FC = () => {
                                     <CartItem key={id} data-testid={`cart-item-${id}`}>
                                         <RemoveItem onClick={() => handleRemoveItemById(id)}>
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                                             </svg>
                                         </RemoveItem>
                                         <CartItemInfo>

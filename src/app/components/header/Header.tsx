@@ -6,7 +6,7 @@ import { RootState } from "@/app/store/store";
 import { useDispatch, useSelector } from "react-redux";
 import Cart from "../cart/Cart";
 
-import { HeaderCart, HeaderCartItems, HeaderInfo, HeaderSubTitle, HeaderTitle, HeaderWrapper } from './style';
+import { HeaderCart, HeaderCartItems, HeaderInfo, HeaderSubTitle, HeaderTitle, HeaderWrapper } from "./style";
 
 const Header : React.FC = () => {
     const cart : ICartState = useSelector((state : RootState) => state.cart);

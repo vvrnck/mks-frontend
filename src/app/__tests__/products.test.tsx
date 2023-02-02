@@ -9,7 +9,7 @@ describe('Products', () => {
     beforeEach(async () => {
         await act(() => {
             render(<Products {...MockedProducts} />)
-		});
+        });
     });
 
     it('should render product items', async () => {

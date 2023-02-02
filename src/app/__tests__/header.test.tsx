@@ -8,7 +8,7 @@ describe('Header', () => {
     beforeEach(async () => {
         await act(() => {
             render(<Header />);
-		});
+        });
     });
 
     it('should open shopping cart', async () => {

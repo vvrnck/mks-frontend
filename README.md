@@ -65,6 +65,13 @@ yarn test
 pnpm test
 ```
 
+## .env
+
+The only env variable is the one below, refer to ```.env.example```.
+```bash
+API_URL=https://mks-challenge-api-frontend.herokuapp.com/api/v1/
+```
+
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
